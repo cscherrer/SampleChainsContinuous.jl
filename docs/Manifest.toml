@@ -109,7 +109,7 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
-[[SampleChainsPDMP]]
+[[SampleChainsContinuous]]
 path = ".."
 uuid = "e7c205fa-dafe-4443-ab76-ad01bed103ac"
 version = "0.1.0"

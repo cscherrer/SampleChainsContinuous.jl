@@ -1,6 +1,6 @@
-using SampleChainsPDMP
+using SampleChainsContinuous
 using Test
 
-@testset "SampleChainsPDMP.jl" begin
+@testset "SampleChainsContinuous.jl" begin
     # Write your tests here.
 end

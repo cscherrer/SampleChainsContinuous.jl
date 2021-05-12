@@ -55,9 +55,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using SampleChainsPDMP
-            DocMeta.setdocmeta!(SampleChainsPDMP, :DocTestSetup, :(using SampleChainsPDMP); recursive=true)
-            doctest(SampleChainsPDMP)'
+            using SampleChainsContinuous
+            DocMeta.setdocmeta!(SampleChainsContinuous, :DocTestSetup, :(using SampleChainsContinuous); recursive=true)
+            doctest(SampleChainsContinuous)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

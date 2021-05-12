@@ -1,16 +1,16 @@
-using SampleChainsPDMP
+using SampleChainsContinuous
 using Documenter
 
-DocMeta.setdocmeta!(SampleChainsPDMP, :DocTestSetup, :(using SampleChainsPDMP); recursive=true)
+DocMeta.setdocmeta!(SampleChainsContinuous, :DocTestSetup, :(using SampleChainsContinuous); recursive=true)
 
 makedocs(;
-    modules=[SampleChainsPDMP],
+    modules=[SampleChainsContinuous],
     authors="Chad Scherrer <chad.scherrer@gmail.com> and contributors",
-    repo="https://github.com/cscherrer/SampleChainsPDMP.jl/blob/{commit}{path}#{line}",
-    sitename="SampleChainsPDMP.jl",
+    repo="https://github.com/cscherrer/SampleChainsContinuous.jl/blob/{commit}{path}#{line}",
+    sitename="SampleChainsContinuous.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://cscherrer.github.io/SampleChainsPDMP.jl",
+        canonical="https://cscherrer.github.io/SampleChainsContinuous.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/cscherrer/SampleChainsPDMP.jl",
+    repo="github.com/cscherrer/SampleChainsContinuous.jl",
 )

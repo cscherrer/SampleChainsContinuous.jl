@@ -1,12 +1,12 @@
 ```@meta
-CurrentModule = SampleChainsPDMP
+CurrentModule = SampleChainsContinuous
 ```
 
-# SampleChainsPDMP
+# SampleChainsContinuous
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [SampleChainsPDMP]
+Modules = [SampleChainsContinuous]
 ```
